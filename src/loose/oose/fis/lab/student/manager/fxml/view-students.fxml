@@ -20,7 +20,7 @@
                         <TableColumn fx:id="studentAgeColumn" prefWidth="90.0" text="Age"/>
                         <TableColumn fx:id="studentMeanGradeColumn" prefWidth="90.0" sortType="DESCENDING"
                                      text="Mean Grade"/>
-                    </columns>
+                    </columns>student
                 </TableView>
             </center>
             <padding>
