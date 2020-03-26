@@ -8,14 +8,43 @@ public class Student {
     private int age;
     private double meanGrade;
 
-
-
-
     public Student(String firstName, String lastName, int age, double meanGrade) {
         this.firstName = firstName;
         this.lastName=lastName;
         this.age=age;
         this.meanGrade=meanGrade;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public double getMeanGrade() {
+        return meanGrade;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
+    public void setMeanGrade(double meanGrade) {
+        this.meanGrade = meanGrade;
     }
 
     @Override
